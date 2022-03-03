@@ -4,10 +4,106 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tailwind Starter Template</title>
+    <title>Kamikaze - Promoveringssite</title>
     <link rel="stylesheet" href="tailwind.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body>
+  <body class="m-0">
+    <section
+      class="bg-heromobil sm:bg-hero md:bg-hero lg:bg-hero min-h-screen bg-cover bg-center"
+      id="first_section"
+    >
+      <header>
+        <nav class="">
+          <ul class="flex flex-row justify-end gap-12 p-8">
+            <li class="pulsate-fwd">
+              <a
+                class="font-montserrat bg-peony hover:bg-peony/80 sm:hover:bg-apricot/80 sm:bg-apricot md:hover:bg-apricot/80 md:bg-apricot xl:hover:bg-apricot/80 xl:bg-apricot p-4 text-center font-extrabold uppercase text-white"
+                href="#second_section"
+                >Om Kamikaze</a
+              >
+            </li>
+
+            <li class="pulsate-fwd">
+              <a
+                class="font-montserratbg-peony hover:bg-peony/80 sm:hover:bg-apricot/80 sm:bg-apricot md:hover:bg-apricot/80 md:bg-apricot xl:hover:bg-apricot/80 xl:bg-apricot p-4 text-center font-extrabold uppercase text-white"
+                href="#third_section"
+                >Processen</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </header>
+    </section>
+
+    <section class="lg:mt-12" id="second_section">
+      <div class="lg:flex lg:flex-row lg:justify-center lg:gap-12">
+        <div class="lg:self-center">
+          <h2 class="font-montserrat text-apricot text-5xl font-bold uppercase">
+            Om Kamikaze
+          </h2>
+          <h3 class="font-montserrat text-peony text-3xl font-bold">
+            Lorem ipsum dolor sit amet
+          </h3>
+          <p
+            class="font-montserrat break-words text-lg font-normal text-black lg:max-w-xl"
+          >
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+            accusantium dolo remque laudantium, totam rem aperiam, eaque ipsa
+            quae ab illo inventore veritatis et quasi architecto beatae vitae
+            dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+            aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+            eos qui ratione voluptatem sequi nesciunt.
+          </p>
+        </div>
+        <div>
+          <img class="lg:mb-6 lg:max-w-xl" src="/img/magasin.png" alt="" />
+          <img class="lg:max-w-xl" src="/img/magasin2.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-buttercream lg:mt-12" id="third_section">
+      <div class="lg:flex lg:flex-row lg:justify-center lg:gap-12">
+        <div class="lg:self-center">
+          <h2 class="font-montserrat text-apricot text-5xl font-bold uppercase">
+            Processen
+          </h2>
+          <h3 class="font-montserrat text-peony text-3xl font-bold">
+            Lorem ipsum dolor sit amet
+          </h3>
+          <p
+            class="font-montserrat break-words text-lg font-normal text-black lg:max-w-xl"
+          >
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+            accusantium dolo remque laudantium, totam rem aperiam, eaque ipsa
+            quae ab illo inventore veritatis et quasi architecto beatae vitae
+            dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+            aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+            eos qui ratione voluptatem sequi nesciunt.
+          </p>
+        </div>
+        <div>
+          <img
+            class="lg:mb-6 lg:mt-12 lg:max-w-xl"
+            src="/img/magasin.png"
+            alt=""
+          />
+          <img class="lg:mb-12 lg:max-w-xl" src="/img/skitse.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-apricot">
+      <a class="flex justify-center p-4" href="#first_section"
+        ><img class="h-28" src="/img/logo.png" alt="" />
+      </a>
+    </footer>
     <script type="module" src="index.js"></script>
   </body>
 </html>
